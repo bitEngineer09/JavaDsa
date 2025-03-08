@@ -1,7 +1,7 @@
 package Lectures._1_ConditonalsAndLoops;
 
 import java.util.Scanner;
-public class ReverseNum {
+public class _5_ReverseNum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();

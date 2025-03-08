@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class reverseArrayLogic2 {
+public class _8_reverseArrayLogic2 {
     public static void main(String[] args) {
     int[] arr = {1,2,3,4,5,6};
     reverse(arr);

@@ -1,6 +1,6 @@
 package Lectures._3_Methods;
 
-public class Greet {
+public class _1_Greet {
     public static void main(String[] args) {
         String gautam = greetEmp("Gautam");
         System.out.println(gautam);

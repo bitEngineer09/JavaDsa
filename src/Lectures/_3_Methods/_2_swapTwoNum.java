@@ -1,6 +1,6 @@
 package Lectures._3_Methods;
 
-public class swapTwoNum {
+public class _2_swapTwoNum {
     public static void main(String[] args) {
         int a = 24;
         int b = 45;

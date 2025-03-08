@@ -1,6 +1,6 @@
 package Lectures._5_LinearSearch;
 
-public class LinearSearch1 {
+public class _1_LinearSearch1 {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6};
         System.out.println(linearSearch(arr, 2));

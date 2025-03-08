@@ -1,4 +1,4 @@
-public class maxElementArrayLogic2 {
+public class _5_maxElementArrayLogic2 {
     public static void main(String[] args) {
         int[] arr = {1,2,34,4,5};
         System.out.println(maxEl(arr));

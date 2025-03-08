@@ -2,7 +2,7 @@ package Lectures._5_LinearSearch;
 
 import java.util.Arrays;
 
-public class searchInString2 {
+public class _4_searchInString2 {
     public static void main(String[] args) {
 
         String a = "apple";

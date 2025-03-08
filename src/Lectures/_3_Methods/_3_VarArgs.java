@@ -2,7 +2,7 @@ package Lectures._3_Methods;
 
 import java.util.Arrays;
 
-public class VarArgs {
+public class _3_VarArgs {
     public static void main(String[] args) {
 
     }

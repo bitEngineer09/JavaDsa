@@ -2,7 +2,7 @@ package Lectures._5_LinearSearch;
 
 import java.util.Arrays;
 
-public class SearchIn2D {
+public class _7_SearchIn2DArrays {
     public static void main(String[] args) {
         int[][] arr = {{1,2,3}, // i = 1
                 {4,5,6},        // i = 2

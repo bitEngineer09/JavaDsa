@@ -2,7 +2,7 @@ package Lectures._1_ConditonalsAndLoops;
 
 import java.util.Scanner;
 
-public class LargestOf3 {
+public class _1_LargestOf3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();

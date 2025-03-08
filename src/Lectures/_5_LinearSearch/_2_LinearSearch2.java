@@ -1,6 +1,6 @@
 package Lectures._5_LinearSearch;
 
-public class LinearSearch2 {
+public class _2_LinearSearch2 {
     public static void main(String[] args) {
         int arr[] = {5,6,7,89,645};
         final int check = linearSearch(arr, 645);

@@ -1,6 +1,6 @@
 package Lectures._3_Methods;
 
-public class isArmstrong {
+public class _4_isArmstrong {
     public static void main(String[] args) {
         boolean num1 = armstrong(153);
         System.out.println(num1);

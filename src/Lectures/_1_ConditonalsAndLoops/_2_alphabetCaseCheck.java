@@ -2,7 +2,7 @@ package Lectures._1_ConditonalsAndLoops;
 
 import java.util.Scanner;
 
-public class CaseCheck {
+public class _2_alphabetCaseCheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         char c = sc.next().trim().charAt(0);

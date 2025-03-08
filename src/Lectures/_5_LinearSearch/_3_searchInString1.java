@@ -1,6 +1,6 @@
 package Lectures._5_LinearSearch;
 
-public class searchInString1 {
+public class _3_searchInString1 {
     public static void main(String[] args) {
         String str = "Faang";
         final boolean check = stringSearch(str, 'o');

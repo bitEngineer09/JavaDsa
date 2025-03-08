@@ -2,7 +2,7 @@ package Lectures._4_ArrayList;
 
 import java.util.Arrays;
 
-public class printing2DArray {
+public class _1_printing2DArray {
     public static void main(String[] args) {
         int[][] arr = {
                 {1,2,3},

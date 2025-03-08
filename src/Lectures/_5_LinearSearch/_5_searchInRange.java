@@ -1,6 +1,6 @@
 package Lectures._5_LinearSearch;
 
-public class searchInRange {
+public class _5_searchInRange {
     public static void main(String[] args) {
         int[] arr = {12,23,34,45,65,66,56,57,58};
         final boolean check = search(arr, 2, 7, 48);

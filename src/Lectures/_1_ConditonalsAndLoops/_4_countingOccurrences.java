@@ -1,6 +1,6 @@
 package Lectures._1_ConditonalsAndLoops;
 
-public class OccOfDigit {
+public class _4_countingOccurrences {
     public static void main(String[] args) {
         int n = 556634;
         int count = 0;

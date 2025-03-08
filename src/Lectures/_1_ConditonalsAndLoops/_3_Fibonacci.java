@@ -3,7 +3,7 @@ package Lectures._1_ConditonalsAndLoops;
 import java.util.Scanner;
 
 // find nth fibonacci number
-public class Fibonacci {
+public class _3_Fibonacci {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

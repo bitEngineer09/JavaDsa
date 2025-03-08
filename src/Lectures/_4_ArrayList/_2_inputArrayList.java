@@ -3,7 +3,7 @@ package Lectures._4_ArrayList;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class inputArrayList {
+public class _2_inputArrayList {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<ArrayList<Integer>> List = new ArrayList<>();

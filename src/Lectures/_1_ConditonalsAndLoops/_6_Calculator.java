@@ -2,7 +2,7 @@ package Lectures._1_ConditonalsAndLoops;
 
 import java.util.Scanner;
 
-public class MyCalc {
+public class _6_Calculator {
 //---------------Mera Logic--------------------------
 
     public static void main(String[] args) {
