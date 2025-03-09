@@ -3,7 +3,7 @@ package Lectures._6_BinarySearch;
 public class _3_CeilingOfANumber {
     public static void main(String[] args) {
         int[] arr = {2,3,5,8,14,16,18};
-        System.out.println(Ceil(arr, 30));
+        System.out.println(Ceil(arr, 10));
     }
 
     // return index: smallest number >= target
@@ -24,6 +24,7 @@ public class _3_CeilingOfANumber {
                 end = mid - 1;
             }
         }
-        return start;
+        return start;   // will execute when while condn becomes false.
+                        // e target s -> s is the smallest number >= target
     }
 }

@@ -23,6 +23,7 @@ public class _4_FloorOfANumber {
                 end = mid - 1;
             }
         }
-        return end;
+        return end; // will execute when while condn becomes false.
+                    // e target s -> e is the greatest number <= target
     }
 }
