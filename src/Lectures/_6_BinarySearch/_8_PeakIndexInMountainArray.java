@@ -1,5 +1,5 @@
 package Lectures._6_BinarySearch;
-
+// https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
 // badhta ghat ta hua array, just like mountains
 // also known as bitonic array
 // [1,2,3,4,5,6,7,3,2,1]
