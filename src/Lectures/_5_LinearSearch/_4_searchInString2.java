@@ -18,6 +18,7 @@ public class _4_searchInString2 {
             return false;
         }
 
+//        forEach is not directly applicable on String.
         for (char ch : str.toCharArray()) {
             if (ch == target) {
                 return true;

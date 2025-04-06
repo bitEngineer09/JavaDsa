@@ -1,3 +1,5 @@
+package Lectures._4_ArrayList;
+
 import java.util.Arrays;
 public class _8_reverseArrayLogic2 {
     public static void main(String[] args) {

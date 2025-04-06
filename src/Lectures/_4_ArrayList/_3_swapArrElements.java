@@ -1,7 +1,9 @@
+package Lectures._4_ArrayList;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class _3_swapArr {
+public class _3_swapArrElements {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = {1,2,3,4,5};

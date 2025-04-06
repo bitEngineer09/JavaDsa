@@ -1,6 +1,6 @@
 package Lectures._5_LinearSearch;
 
-public class _6_FindMin {
+public class _6_FindMinEleInArray {
     public static void main(String[] args) {
         int[] arr = {1,2,-3,4,5};
         final int check = min(arr);

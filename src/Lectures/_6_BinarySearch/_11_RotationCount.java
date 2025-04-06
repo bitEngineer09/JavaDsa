@@ -1,38 +1,17 @@
 package Lectures._6_BinarySearch;
 
-// Google, Amazon
-// https://leetcode.com/problems/find-in-mountain-array/submissions/1570417124/
-
-public class _10_SearchInRotatedSortedArray {
+public class _11_RotationCount {
     public static void main(String[] args) {
-        int[] arr = {3,5,1};
-        System.out.println(findPivot(arr));
-        System.out.println(search(arr,3));
+        int[] arr = {3, 5,7,8, 1,2};
+        System.out.println(countRotations(arr));
+    }
+    static int countRotations(int[] arr) {
+        int pivot = findPivot(arr);
+        return pivot + 1;
     }
 
-    static int search(int[] nums, int target) {
-        int pivot = findPivot(nums);
-        // if pivot is not found, it means the array is not rotated
-        if (pivot == -1) {
-            // just do the normal binary search
-            return binary(nums, target,0,nums.length - 1);
-        }
-
-        // if pivot is found, we have 2 asc sorted arrays
-        if (nums[pivot] == target) {
-            return pivot;
-        }
-
-        if (target >= nums[0]) { // search space is reduced to { s to (p - 1) }
-            return binary(nums, target, 0, pivot-1);
-        }
-        // search space is reduced to { (p + 1) to (arr.length - 1) }
-            return binary(nums, target, pivot + 1, nums.length - 1);
-
-    }
-
-    // this will not work for duplicate pivot values
-    static int  findPivot(int[] nums) {
+    // use this when array doesn't have duplicates
+    static int findPivot(int[] nums) {
         int start = 0;
         int end = nums.length - 1;
         while (start <= end) {
@@ -89,6 +68,7 @@ public class _10_SearchInRotatedSortedArray {
         }
         return -1;
     }
+
 
     static int binary(int[] nums, int target, int start, int end) {
         while (start <= end) {
